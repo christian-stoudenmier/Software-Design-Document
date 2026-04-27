@@ -1,2 +1,14 @@
 # Software-Design-Document
 Software Design Document
+
+The client was The Gaming Room, and they wanted a software design for their game, Draw It or Lose It. The game was originally created for Android, but they wanted to expand it into a web-based application that could run across multiple platforms. The software needed to support multiple users, teams, and game sessions while also being scalable, secure, and reliable in a distributed environment.
+
+I think I did well in organizing the document and breaking the client’s needs down into specific technical recommendations. I also think I did a well in comparing operating platforms and explaining why one option would be a better fit than another instead of just listing features. As the course went on, I also got better at making sure the document matched the actual design and project requirements instead of treating each section like a separate assignment.
+
+Working through the design document first was helpful because it made the coding part more structured. It forced me to think through the requirements, the platform, the system architecture, and the relationships between the main parts of the application before jumping into code. That made it easier to understand why certain design patterns and architectural choices were being used later in the project.
+
+If I could revise one part, I would probably go back and improve some of the earlier design decisions so they matched the final UML and code structure more closely. One thing I learned in this course is that it is not enough for a design to sound correct at a high level. It also should line up with the actual class responsibilities and implementation details. I would make those connections clearer from the beginning.
+
+I approached the user’s needs by first identifying what The Gaming Room was really asking for beyond just expanding the app. They needed the game to be scalable, available across multiple platforms, secure, and able to support multiple players and teams at the same time. From there, I used those needs to guide the design choices, such as recommending a web-based distributed system, using Linux as the server platform, and planning for both memory and storage management. Considering the user’s needs is important because the design should solve the client’s actual problem, not just be technically correct.
+
+I approached designing the software by starting with the requirements and then using those requirements to guide each technical decision. I tried to think about the design in layers, starting with what the client needed, then what kind of architecture would support that, and then what specific platform and development choices made the most sense. In the future, I would use a similar approach, but I would also spend more time early on making sure the design, UML, and implementation all stay aligned as the project develops. That was one of the biggest things I learned from this process.
